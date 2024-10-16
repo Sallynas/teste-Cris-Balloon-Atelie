@@ -1,0 +1,78 @@
+body{
+    background-image: url(baloesbackground.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header img{
+    width: 6%;
+    height: auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+section{
+    text-align: center;
+    line-height: 1.6;
+    font-size: larger;
+    color: rgb(85, 85, 85);
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 1500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.31);
+}
+
+a.button{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: #d4f4ff;
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 10px 5px;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+    text-align: center;
+    line-height: 130px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+a.button.modelos:hover{
+    color: white;
+    background-image: url(IMG_6208.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+a.button.contatos:hover{
+    color: white;                           ;
+    background-image: url(instagram.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+a.button.localizacao:hover{
+    color: white;
+    background-image: url(loja.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
