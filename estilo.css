@@ -71,6 +71,19 @@ a.button.localizacao:hover{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.section1{
+    margin-top: 30px;
+    background-color: pink;
+    width: 900px;
+    color: rgb(69, 69, 69);
+}
+
+#modeloslistinha{
+    text-align: left;
+    padding-left: 20px;
+    color: rgb(85, 64, 64);
+}
+
 footer{
     color: white;
     text-align: center;
